@@ -55,7 +55,6 @@ family-tree-project/
 ```
 ## Особенности
 
-- Поддержка английского и русского языков.
 - Возможность поиска членов семьи по имени.
 - Сохранение и загрузка семейного дерева из файла.
 
@@ -68,40 +67,3 @@ family-tree-project/
 - **Группа:** 6381
 - **Фамилия и Имя:** Bakun Denis
 
-
-
-├── app/
-│ ├── model/
-│ │ ├── FamilyMember.java
-│ │ ├── FamilyTree.java
-│ │ ├── Gender.java
-│ │ ├── Relationship.java
-│ │
-│ ├── presenter/
-│ │ ├── FamilyTreePresenter.java
-│ │ ├── IView.java
-│ │ ├── IPresenter.java
-│ │
-│ ├── service/
-│ │ ├── FamilyTreeService.java
-│ │
-│ ├── Main.java
-│
-├── util/
-│ ├── comparators/
-│ │ ├── DateOfBirthComparator.java
-│ │ ├── NameComparator.java
-│ │
-│ ├── operations/
-│ │ ├── AddMemberOperation.java
-│ │ ├── AddRelationshipOperation.java
-│ │ ├── DeleteMemberOperation.java
-│ │ ├── EditMemberOperation.java
-│ │ ├── FamilyTreeOperation.java
-│ │ ├── FindMemberByNameOperation.java
-│ │ ├── LoadTreeOperation.java
-│ │ ├── SaveTreeOperation.java
-│ │ ├── ViewTreeOperation.java
-│ │
-│ ├── FileStorage.java
-│ ├── IFamilyTreeStorage.java
